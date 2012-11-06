@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<NavContents>
+  <NavContent>
+    <Text>Home</Text>
+    <URL>/Members/Index_Members/</URL>
+  </NavContent>
+  <NavContent>
+    <Text>Check Availability</Text>
+    <URL>/Members/AvailabilityChecker/</URL>
+  </NavContent>
+  <NavContent>
+    <Text>Make Appointment</Text>
+    <URL>/Members/MakeAppointment/</URL>
+  </NavContent>
+  <NavContent>
+    <Text>Logout</Text>
+    <URL>/Members/Logout/</URL>
+  </NavContent>
+  <NavContent>
+    <Text>Management</Text>
+    <URL>http://www.google.com</URL>
+  </NavContent>
+</NavContents>

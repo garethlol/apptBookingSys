@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<NavContents>
+  <NavContent>
+    <Text>Home</Text>
+    <URL>/Index/</URL>
+  </NavContent>
+  <NavContent>
+    <Text>Check Availability</Text>
+    <URL>/AvailabilityChecker/</URL>
+  </NavContent>
+  <NavContent>
+    <Text>Sign Up</Text>
+    <URL>/SignUp/</URL>
+  </NavContent>
+  <NavContent>
+    <Text>Login</Text>
+    <URL>/Login/</URL>
+  </NavContent>
+  <NavContent>
+    <Text>Management</Text>
+    <URL>http://www.google.com</URL>
+  </NavContent>
+</NavContents>

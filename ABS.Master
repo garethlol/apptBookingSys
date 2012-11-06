@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ABS.Master.cs" Inherits="ABS_1.Site1" %>
+<%@ Register TagPrefix="Navigation" Src="~/Presentation/NaviBar.ascx" TagName="NavigationControl" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!-- 
+        Master Directive
+-->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link type="text/css" rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="container">
+        <div id="header">
+                <img alt="banner" class="style1" src="/Images/banner.png" />
+        </div>
+        <div id="wrapper">
+            <div id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" 
+                     runat="server">
+                    </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="navigation">
+            <p>
+                &nbsp;<Navigation:NavigationControl runat="server" id="SimpleControl1"></Navigation:NavigationControl>
+            </p>
+            
+        </div>
+        <div id="footer">
+            <p>
+                Copyright 2012 - Ng and Sapiano Company</p>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
